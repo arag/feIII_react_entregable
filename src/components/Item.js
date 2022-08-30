@@ -25,7 +25,7 @@ const Item = ({ nombre, descripcion, cantidadItem, comprarItem }) => {
       <p>{descripcion}</p>
       <h5>En stock: {stock > 0 ? stock : <span>agotado</span>}</h5>
       <button onClick={comprar} disabled={stock === 0}>
-        Comprar
+        {stock > 0 ? 'Comprar' : 'Sin Stock'}
       </button>
     </div>
   );
