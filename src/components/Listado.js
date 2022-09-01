@@ -6,7 +6,7 @@
 // PROPS: Listado recibe el método para aumentar el estado de App y se lo pasa a cada uno de sus hijos.
 
 import React from 'react';
-import productosInfo from './data';
+import productosInfo from '../data/data';
 import Item from './Item';
 
 const Listado = ({ comprarFx }) => {
