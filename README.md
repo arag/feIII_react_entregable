@@ -1,9 +1,9 @@
-# Guía de consignas
+# Frontend III - Primer Entregable - Carrito de compras
 
-En cada uno de los componentes está detallado su funcionamiento.
+## Objetivo
 
-# Demo del proyecto
+Lograr que este carrito de compras muestre info de cada producto que ofrece el sitio y que cada uno de ellos se pueda comprar si tiene stock. También se debe mantener actualizada la cantidad de productos que se compran. Si se compra un producto, actualizar el stock del mismo y sumar a la cantidad total de productos que se están comprando.
 
-Aquí pueden ver una demo del funcionamiento de la aplicación.
+### Mi solución
 
-![demoReactFE3.gif](https://raw.githubusercontent.com/Frontend-III/entregable-frontend-3-junio22/main/demoReactFE3.gif)
+![Mi-solución](entregable-mi-solucion.gif)
